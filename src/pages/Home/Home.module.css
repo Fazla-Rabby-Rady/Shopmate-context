@@ -1,0 +1,13 @@
+.product{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}

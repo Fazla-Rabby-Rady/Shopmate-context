@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+.logo img{
+    width: 3rem;
+    /* object-fit: cover; */
+}
+.logo span{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(228, 21, 142);
+}
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.card{
+    width: 30%;
+    font-size: 2rem;
+    padding-left: 9rem;
+    position: relative;
+    
+}
+.card span{
+    background-color: rgb(204, 193, 193);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 10.5rem;   
+}
